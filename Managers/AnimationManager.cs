@@ -57,7 +57,7 @@ namespace TryMono3.Managers
 
         public void Update(GameTime gameTime)
         {
-            _timer += (float)gameTime.ElapsedGameTime.TotalSeconds;
+            _timer += Globals.ElapsedSeconds;
             
             if (_timer > _animation.FrameSpeed)
             {
@@ -68,6 +68,7 @@ namespace TryMono3.Managers
                 if(_animation.CurrentFrame >= _animation.FrameCount)
                     _animation.CurrentFrame = 0;
             }
+            Globals.Update(gameTime);
         }    
     }
 }

@@ -24,12 +24,20 @@
     <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/7.jpg</File>
     <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/8.jpg</File>
     <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/9.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/parallaxBackground/bg.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/parallaxBackground/buildings.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/parallaxBackground/far-buildings.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/parallaxBackground/skill-foreground.png</File>
     <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/sprites/jump.png</File>
     <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/sprites/stay.png</File>
     <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/sprites/WalkLeft.png</File>
     <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/sprites/WalkRight.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
