@@ -26,7 +26,7 @@ namespace TryMono3.States
                 {"jump", new Animation(content.Load<Texture2D>("sprites/jump"), 3) },
                 {"stay", new Animation(content.Load<Texture2D>("sprites/stay"), 1 )}
             };
-            var playerSprite = new Sprite(playerAnimations)
+            var playerSprite = new Player(playerAnimations)
             {
                 Position = new Vector2(100, 100),
                 Input = new Input()
@@ -61,7 +61,7 @@ namespace TryMono3.States
         {
             foreach(var sprite in _sprites) 
             {
-                sprite.Update(gameTime, _sprites);
+                sprite.Update(gameTime);
             }
         }
     }

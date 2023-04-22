@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono3\\TryMono3\\TryMono3.csproj": {}
+    "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMonoReserve\\TryMono3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono3\\TryMono3\\TryMono3.csproj": {
+    "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMonoReserve\\TryMono3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono3\\TryMono3\\TryMono3.csproj",
+        "projectUniqueName": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMonoReserve\\TryMono3.csproj",
         "projectName": "TryMono3",
-        "projectPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono3\\TryMono3\\TryMono3.csproj",
+        "projectPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMonoReserve\\TryMono3.csproj",
         "packagesPath": "C:\\Users\\tomke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono3\\TryMono3\\obj\\",
+        "outputPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMonoReserve\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tomke\\AppData\\Roaming\\NuGet\\NuGet.Config",

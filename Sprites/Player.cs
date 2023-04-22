@@ -1,15 +1,17 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework;
-using TryMono3.Models;
-using TryMono3.Managers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System;
+using System.Text;
+using System.Threading.Tasks;
+using TryMono3.Managers;
+using TryMono3.Models;
 
 namespace TryMono3.Spritess
 {
-    public class Sprite
+    public class Player : Sprite
     {
         #region Field
 
@@ -46,28 +48,27 @@ namespace TryMono3.Spritess
 
         #endregion
 
-        #region Methods
-        public Sprite(Texture2D texture, Vector2 position)
+        public Player(Texture2D texture, Vector2 position)
         {
             _texture = texture;
         }
 
-        public Sprite(Dictionary<string, Animation> animations)
+        public Player(Dictionary<string, Animation> animations)
         {
             _animations = animations;
             _animationManager = new AnimationManager(_animations.First().Value);
         }
-        public void Draw(SpriteBatch spriteBatch)
+        public override void Draw(SpriteBatch spriteBatch)
         {
             if (_texture != null)
-            spriteBatch.Draw(_texture, Position,null, Color.White);
+                spriteBatch.Draw(_texture, Position, null, Color.White);
             else if (_animationManager != null)
                 _animationManager.Draw(spriteBatch);
             else throw new Exception("Not sprite");
         }
 
-        public virtual void Move()
-        {           
+        public override void Move()
+        {
             if (Keyboard.GetState().IsKeyDown(Input.Up))
             {
                 Velocity.Y = -Speed;
@@ -86,19 +87,7 @@ namespace TryMono3.Spritess
             }
         }
 
-        public void Update(GameTime gameTime, List<Sprite> sprites)
-        {
-            Move();
-
-            SetAnimations();
-
-            _animationManager.Update(gameTime);
-            Position += Velocity;
-            Velocity = Vector2.Zero;
-
-        }
-
-        protected virtual void SetAnimations()
+        public override void SetAnimation()
         {
             if (Velocity.X == 0 && Velocity.Y == 0)
                 _animationManager.Play(_animations["stay"]);
@@ -107,11 +96,18 @@ namespace TryMono3.Spritess
             else if (Velocity.X < 0)
                 _animationManager.Play(_animations["walkleft"]);
             else if (Velocity.Y > 0)
-                _animationManager.Play(_animations["jump"]);         
+                _animationManager.Play(_animations["jump"]);
             if (Velocity.Y < 0)
                 _animationManager.Play(_animations["jump"]);
         }
-        #endregion
 
+        public override void Update(GameTime gameTime)
+        {
+            Move();
+            SetAnimation();
+            _animationManager.Update(gameTime);
+            Position += Velocity;
+            Velocity = Vector2.Zero;
+        }
     }
 }

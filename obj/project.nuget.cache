@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NqFZ8716wXkLKMRugqUNdSw2phIw8fAFuTX7qI2quUsS6uJLTPadx9eBryOjsxl1W6ALBsGNMmtagKYhag9uCw==",
+  "dgSpecHash": "s9lYVWXSNYCOA5cysqOW5A83h+1Mjp65LW8F0WTeKNKVFHOz3tR6rZo7FK01GSaNhwf1Z5IGHjpmJCbylF7sXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono3\\TryMono3\\TryMono3.csproj",
+  "projectFilePath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMonoReserve\\TryMono3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tomke\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",

@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Content",
+    "\\Content\\sprites",
+    "\\Spritess",
+    "\\States"
   ],
-  "SelectedNode": "\\C:\\Users\\tomke\\source\\repos\\Monogame\\TryMonoReserve",
+  "SelectedNode": "\\Spritess\\Sprite.cs",
   "PreviewInSolutionExplorer": false
 }

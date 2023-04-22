@@ -1,0 +1,23 @@
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TryMono3.Managers;
+using TryMono3.Models;
+
+namespace TryMono3.Spritess
+{
+    public abstract class Sprite
+    {            
+        public abstract void Draw(SpriteBatch spriteBatch);
+
+        public abstract void Update(GameTime gameTime);
+
+        public abstract void SetAnimation();
+
+        public abstract void Move();
+    }
+}
