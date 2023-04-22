@@ -21,13 +21,7 @@ namespace TryMono3.Spritess
 
         protected Texture2D _texture;
 
-        private float _rotation;
-
         public Vector2 Origin;
-
-        public float RotationVelocity = 3f;
-
-        public float LinearVelocity = 4f;
 
         #endregion
 
@@ -66,7 +60,7 @@ namespace TryMono3.Spritess
         public void Draw(SpriteBatch spriteBatch)
         {
             if (_texture != null)
-            spriteBatch.Draw(_texture, Position,null, Color.White, _rotation, Origin, 1, SpriteEffects.None, 0f);
+            spriteBatch.Draw(_texture, Position,null, Color.White);
             else if (_animationManager != null)
                 _animationManager.Draw(spriteBatch);
             else throw new Exception("Not sprite");
@@ -84,12 +78,10 @@ namespace TryMono3.Spritess
             }
             else if (Keyboard.GetState().IsKeyDown(Input.Left))
             {
-                _rotation -= MathHelper.ToRadians(RotationVelocity);
                 Velocity.X = -Speed;
             }
             else if (Keyboard.GetState().IsKeyDown(Input.Right))
             {
-                _rotation += MathHelper.ToRadians(RotationVelocity);
                 Velocity.X = Speed;
             }
         }
@@ -109,13 +101,11 @@ namespace TryMono3.Spritess
         protected virtual void SetAnimations()
         {
             if (Velocity.X == 0 && Velocity.Y == 0)
-            {
                 _animationManager.Play(_animations["stay"]);
-            }
             if (Velocity.X > 0)
-                _animationManager.Play(_animations["walk"]);
+                _animationManager.Play(_animations["walkright"]);
             else if (Velocity.X < 0)
-                _animationManager.Play(_animations["walk"]);
+                _animationManager.Play(_animations["walkleft"]);
             else if (Velocity.Y > 0)
                 _animationManager.Play(_animations["jump"]);         
             if (Velocity.Y < 0)

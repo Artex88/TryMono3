@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/0.jpg</SourceFile>
-  <SourceTime>2023-04-21T15:17:27.3322107+05:00</SourceTime>
-  <DestFile>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/bin/Windows/Content/menuAnimation/0.xnb</DestFile>
-  <DestTime>2023-04-21T17:44:19.4497265+05:00</DestTime>
+  <SourceFile>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/0.jpg</SourceFile>
+  <SourceTime>2023-04-22T20:13:01.2547384+05:00</SourceTime>
+  <DestFile>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/bin/Windows/Content/menuAnimation/0.xnb</DestFile>
+  <DestTime>2023-04-22T20:13:24.1778981+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

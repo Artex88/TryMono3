@@ -1,1 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/sprites/WalkLeft.png","C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/bin/Windows/Content/sprites/WalkLeft.xnb","TextureProcessor","Texture2DContent",460,5205,0,0918958
+"C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/sprites/WalkRight.png","C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/bin/Windows/Content/sprites/WalkRight.xnb","TextureProcessor","Texture2DContent",445,5205,0,0012881

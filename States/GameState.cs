@@ -15,29 +15,31 @@ namespace TryMono3.States
     class GameState : State
     {
         private List<Sprite> _sprites;
+
         public GameState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content) : base(game, graphicsDevice, content)
         {
-
-            var animations = new Dictionary<string, Animation>()
+            _sprites = new List<Sprite>();
+            var playerAnimations = new Dictionary<string, Animation>()
             {
-                {"walk", new Animation(content.Load<Texture2D>("sprites/Walk"), 5)},
+                {"walkright", new Animation(content.Load<Texture2D>("sprites/WalkRight"), 5)},
+                {"walkleft", new Animation(content.Load<Texture2D>("sprites/WalkLeft"), 5)},
                 {"jump", new Animation(content.Load<Texture2D>("sprites/jump"), 3) },
                 {"stay", new Animation(content.Load<Texture2D>("sprites/stay"), 1 )}
             };
-            _sprites = new List<Sprite>()
+            var playerSprite = new Sprite(playerAnimations)
             {
-              new Sprite(animations)
-              {
-                  Position= new Vector2(100, 100),
-                  Input = new Input()
-                  {
-                      Up = Keys.W,
-                      Right = Keys.D,
-                      Left= Keys.A,
-                      Down= Keys.S,
-                  }
-              }
+                Position = new Vector2(100, 100),
+                Input = new Input()
+                {
+                    Up = Keys.W,
+                    Right = Keys.D,
+                    Left = Keys.A,
+                    Down = Keys.S,
+                }
             };
+            
+            
+            _sprites.Add(playerSprite);
         }
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
