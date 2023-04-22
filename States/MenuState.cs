@@ -10,6 +10,7 @@ using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TryMono3.Animations;
 using TryMono3.Controls;
 using TryMono3.Managers;
 using TryMono3.Models;
@@ -20,14 +21,12 @@ namespace TryMono3.States
     {
         private List<Controls.Component> _components;
 
+        private List<NonInteractiveElement> _environment;
+
         private static MenuAnimation _menuAnimation;
 
         public MenuState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content) : base(game, graphicsDevice, content)
         {
-
-            var startButtonTexture = _content.Load<Texture2D>("Buttons/startbutton");
-            var quitButtonTexture = _content.Load<Texture2D>("Buttons/exitbutton");
-            var font = _content.Load<SpriteFont>("File");
             var backgroundTextures = new List<Texture2D>()
             {
                 content.Load<Texture2D>("menuAnimation\\0"),
@@ -52,17 +51,15 @@ namespace TryMono3.States
 
             
 
-            var newGameButton = new Controls.Button(startButtonTexture, font)
+            var newGameButton = new Controls.Button(_content.Load<Texture2D>("Buttons/startbutton"), null)
             {
                 Position = new Vector2(490, 200),
-                Text = "",
             };
                 newGameButton.Click += NewGameButton_Click;
 
-            var quitButton = new Controls.Button(quitButtonTexture, font)
+            var quitButton = new Controls.Button(_content.Load<Texture2D>("Buttons/exitbutton"), null)
             {
                 Position = new Vector2(580, 250),
-                Text = "",
             };
 
                 quitButton.Click += QuitButton_Click;
@@ -72,6 +69,12 @@ namespace TryMono3.States
             {
                 newGameButton,
                 quitButton,
+            };
+
+            _environment = new List<NonInteractiveElement>()
+            {
+                new NonInteractiveElement(_content.Load<Texture2D>("Buttons/menubutton"),  new Vector2(565, 70)),
+                new NonInteractiveElement(_content.Load<Texture2D>("Buttons/ramka"), new Vector2(460, 120)),
             };
             
         }
@@ -88,19 +91,12 @@ namespace TryMono3.States
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            var menuTexture = _content.Load<Texture2D>("Buttons/menubutton");
-            var ramka = _content.Load<Texture2D>("Buttons/ramka");
             spriteBatch.Begin();
-
             _menuAnimation.Draw(spriteBatch);
-
-            spriteBatch.Draw(menuTexture, new Vector2(565, 70), Color.White);
-
-            spriteBatch.Draw(ramka, new Vector2(460, 120), Color.White);
-
             foreach (var component in _components)
                 component.Draw(gameTime,spriteBatch);
-
+            foreach (var element in _environment)
+                element.Draw(gameTime, spriteBatch);
             spriteBatch.End();
         }
 
@@ -112,9 +108,7 @@ namespace TryMono3.States
         public override void Update(GameTime gameTime)
         {
 
-            _menuAnimation.Update(gameTime);
-            
-
+            _menuAnimation.Update(gameTime);         
             foreach (var component in _components)
                 component.Update(gameTime);
         }

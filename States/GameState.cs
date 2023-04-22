@@ -9,12 +9,16 @@ using System.Text;
 using System.Threading.Tasks;
 using TryMono3.Spritess;
 using TryMono3.Models;
+using TryMono3.Managers;
 
 namespace TryMono3.States
 {
     class GameState : State
     {
         private List<Sprite> _sprites;
+
+        private GameManager _gm;
+
 
         public GameState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content) : base(game, graphicsDevice, content)
         {
@@ -37,6 +41,7 @@ namespace TryMono3.States
                     Down = Keys.S,
                 }
             };
+            _gm = new(content);
             
             
             _sprites.Add(playerSprite);
@@ -45,6 +50,7 @@ namespace TryMono3.States
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
+            _gm.Draw(spriteBatch);
             foreach (var sprite in _sprites)
             {
                 sprite.Draw(spriteBatch);
@@ -59,6 +65,7 @@ namespace TryMono3.States
 
         public override void Update(GameTime gameTime)
         {
+            _gm.Update();
             foreach(var sprite in _sprites) 
             {
                 sprite.Update(gameTime);
