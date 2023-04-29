@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/parallaxBackground/far-buildings.png</SourceFile>
+  <SourceFile>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/parallaxBackground/far-buildings.png</SourceFile>
   <SourceTime>2023-04-22T23:13:13.0875724+05:00</SourceTime>
-  <DestFile>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/bin/Windows/Content/parallaxBackground/far-buildings.xnb</DestFile>
-  <DestTime>2023-04-22T23:29:40.7887406+05:00</DestTime>
+  <DestFile>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/bin/Windows/Content/parallaxBackground/far-buildings.xnb</DestFile>
+  <DestTime>2023-04-26T12:32:46.8245631+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

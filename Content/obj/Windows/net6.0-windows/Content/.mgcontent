@@ -4,34 +4,34 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/Buttons/exitbutton.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/Buttons/menubutton.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/Buttons/ramka.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/Buttons/startbutton.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/File.spritefont</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/0.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/1.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/10.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/11.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/12.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/13.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/14.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/2.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/3.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/4.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/5.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/6.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/7.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/8.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/menuAnimation/9.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/parallaxBackground/bg.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/parallaxBackground/buildings.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/parallaxBackground/far-buildings.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/parallaxBackground/skill-foreground.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/sprites/jump.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/sprites/stay.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/sprites/WalkLeft.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMonoReserve/Content/sprites/WalkRight.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/Buttons/exitbutton.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/Buttons/menubutton.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/Buttons/ramka.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/Buttons/startbutton.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/File.spritefont</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/0.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/1.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/10.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/11.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/12.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/13.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/14.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/2.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/3.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/4.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/5.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/6.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/7.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/8.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/9.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/parallaxBackground/bg.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/parallaxBackground/buildings.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/parallaxBackground/far-buildings.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/parallaxBackground/skill-foreground.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/sprites/jump.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/sprites/stay.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/sprites/WalkLeft.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/sprites/WalkRight.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

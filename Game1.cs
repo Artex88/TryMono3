@@ -31,8 +31,8 @@ namespace TryMono3
         {
             // TODO: Add your initialization logic here
 
-            _graphics.PreferredBackBufferWidth = 1280;
-            _graphics.PreferredBackBufferHeight = 640;
+            _graphics.PreferredBackBufferWidth = 1680;
+            _graphics.PreferredBackBufferHeight = 950;
             _graphics.IsFullScreen = false;
             _graphics.ApplyChanges();
             base.Initialize();

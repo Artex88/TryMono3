@@ -159,3 +159,10 @@ C:\Users\tomke\source\repos\Monogame\TryMonoReserve\bin\Debug\net6.0-windows\Con
 C:\Users\tomke\source\repos\Monogame\TryMonoReserve\bin\Debug\net6.0-windows\Content\parallaxBackground\buildings.xnb
 C:\Users\tomke\source\repos\Monogame\TryMonoReserve\bin\Debug\net6.0-windows\Content\parallaxBackground\far-buildings.xnb
 C:\Users\tomke\source\repos\Monogame\TryMonoReserve\bin\Debug\net6.0-windows\Content\parallaxBackground\skill-foreground.xnb
+C:\Users\tomke\source\repos\Monogame\TryMono3\TryMono3\bin\Debug\net6.0-windows\Content\sprites\walkLeftFirst2.xnb
+C:\Users\tomke\source\repos\Monogame\TryMono3\TryMono3\bin\Debug\net6.0-windows\Content\parallaxBackground\bg.xnb
+C:\Users\tomke\source\repos\Monogame\TryMono3\TryMono3\bin\Debug\net6.0-windows\Content\parallaxBackground\buildings.xnb
+C:\Users\tomke\source\repos\Monogame\TryMono3\TryMono3\bin\Debug\net6.0-windows\Content\parallaxBackground\far-buildings.xnb
+C:\Users\tomke\source\repos\Monogame\TryMono3\TryMono3\bin\Debug\net6.0-windows\Content\parallaxBackground\skill-foreground.xnb
+C:\Users\tomke\source\repos\Monogame\TryMono3\TryMono3\bin\Debug\net6.0-windows\Content\sprites\walkLeft.xnb
+C:\Users\tomke\source\repos\Monogame\TryMono3\TryMono3\bin\Debug\net6.0-windows\Content\sprites\WalkRight.xnb
