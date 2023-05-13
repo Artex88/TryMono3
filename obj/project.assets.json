@@ -331,19 +331,6 @@
           }
         }
       },
-      "MonoGame.Aseprite/5.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/MonoGame.Aseprite.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/MonoGame.Aseprite.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MonoGame.Content.Builder.Task/3.8.1.303": {
         "type": "package",
         "build": {
@@ -2893,22 +2880,6 @@
         "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
         "runtimes/win/lib/netcore50/_._",
         "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll"
-      ]
-    },
-    "MonoGame.Aseprite/5.0.1": {
-      "sha512": "p5bQ+Wfcs9RIP4TDUCUASlfya5Av8q2w41Mp4aOkt4NsXUd5QWelXhf9fU6sze6CGhKqa1DD5iAruFS1eGzcBQ==",
-      "type": "package",
-      "path": "monogame.aseprite/5.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "content/Monogame.Aseprite.Content.Pipeline.dll",
-        "icon.png",
-        "lib/net6.0/MonoGame.Aseprite.dll",
-        "lib/net6.0/MonoGame.Aseprite.xml",
-        "monogame.aseprite.5.0.1.nupkg.sha512",
-        "monogame.aseprite.nuspec"
       ]
     },
     "MonoGame.Content.Builder.Task/3.8.1.303": {
@@ -7556,7 +7527,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "MonoGame.Aseprite >= 5.0.1",
       "MonoGame.Content.Builder.Task >= 3.8.1.303",
       "MonoGame.Framework.WindowsDX >= 3.8.1.303"
     ]
@@ -7567,11 +7537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono3\\TryMono3\\TryMono3.csproj",
+      "projectUniqueName": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono\\TryMono3.csproj",
       "projectName": "TryMono3",
-      "projectPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono3\\TryMono3\\TryMono3.csproj",
+      "projectPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono\\TryMono3.csproj",
       "packagesPath": "C:\\Users\\tomke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono3\\TryMono3\\obj\\",
+      "outputPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tomke\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7600,10 +7570,6 @@
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
         "dependencies": {
-          "MonoGame.Aseprite": {
-            "target": "Package",
-            "version": "[5.0.1, )"
-          },
           "MonoGame.Content.Builder.Task": {
             "target": "Package",
             "version": "[3.8.1.303, )"

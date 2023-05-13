@@ -1,7 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using MonoGame.Aseprite;
 using System.Collections.Generic;
 using TryMono3.States;
 
@@ -13,6 +12,8 @@ namespace TryMono3
         private SpriteBatch _spriteBatch;
         private State _currentState;
         private State _nextState;
+        public static int ScreenWidth = 1680;
+        public static int ScreenHeight = 950;
 
         public void ChangeState(State state)
         {
@@ -31,8 +32,8 @@ namespace TryMono3
         {
             // TODO: Add your initialization logic here
 
-            _graphics.PreferredBackBufferWidth = 1680;
-            _graphics.PreferredBackBufferHeight = 950;
+            _graphics.PreferredBackBufferWidth = ScreenWidth;
+            _graphics.PreferredBackBufferHeight = ScreenHeight;
             _graphics.IsFullScreen = false;
             _graphics.ApplyChanges();
             base.Initialize();

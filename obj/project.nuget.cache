@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NqFZ8716wXkLKMRugqUNdSw2phIw8fAFuTX7qI2quUsS6uJLTPadx9eBryOjsxl1W6ALBsGNMmtagKYhag9uCw==",
+  "dgSpecHash": "UROEVFmR09IXs4vhEQdCfJ+9O5z+uWGbF8+faOq74Q9Mq7JOGM+scONmNKGXOGqycjxrslqbflE2jfCrUsBZMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono3\\TryMono3\\TryMono3.csproj",
+  "projectFilePath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono\\TryMono3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tomke\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
@@ -22,7 +22,6 @@
     "C:\\Users\\tomke\\.nuget\\packages\\microsoft.visualbasic\\10.0.1\\microsoft.visualbasic.10.0.1.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\microsoft.win32.primitives\\4.0.1\\microsoft.win32.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\microsoft.win32.registry\\4.0.0\\microsoft.win32.registry.4.0.0.nupkg.sha512",
-    "C:\\Users\\tomke\\.nuget\\packages\\monogame.aseprite\\5.0.1\\monogame.aseprite.5.0.1.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\monogame.framework.windowsdx\\3.8.1.303\\monogame.framework.windowsdx.3.8.1.303.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\netstandard.library\\1.6.0\\netstandard.library.1.6.0.nupkg.sha512",

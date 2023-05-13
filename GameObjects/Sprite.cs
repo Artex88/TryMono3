@@ -11,7 +11,15 @@ using TryMono3.Models;
 namespace TryMono3.Spritess
 {
     public abstract class Sprite
-    {            
+    {
+        protected Texture2D _texture;
+
+        public Vector2 Position { get; set; }
+
+        public Rectangle Rectangle
+        {
+            get { return new Rectangle((int)Position.X, (int)Position.Y, _texture.Width, _texture.Height); }
+        }
         public abstract void Draw(SpriteBatch spriteBatch);
 
         public abstract void Update(GameTime gameTime);

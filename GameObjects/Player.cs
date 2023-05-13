@@ -42,6 +42,8 @@ namespace TryMono3.Spritess
             }
         }
 
+        public new Rectangle Rectangle;
+
         public float Speed = 2f;
 
         public Vector2 Velocity;
@@ -51,6 +53,7 @@ namespace TryMono3.Spritess
         public Player(Texture2D texture, Vector2 position)
         {
             _texture = texture;
+            Rectangle = new Rectangle((int)Position.X, (int)Position.Y, _texture.Width, _texture.Height);
         }
 
         public Player(Dictionary<string, Animation> animations)

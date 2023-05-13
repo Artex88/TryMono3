@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Content",
-    "\\Content\\sprites",
-    "\\Spritess",
+    "\\GameObjects",
     "\\States"
   ],
-  "SelectedNode": "\\Spritess\\Sprite.cs",
+  "SelectedNode": "\\GameObjects\\Layer.cs",
   "PreviewInSolutionExplorer": false
 }

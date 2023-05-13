@@ -53,13 +53,13 @@ namespace TryMono3.States
 
             var newGameButton = new Controls.Button(_content.Load<Texture2D>("Buttons/startbutton"), null)
             {
-                Position = new Vector2(490, 200),
+                Position = new Vector2(730, 330),
             };
                 newGameButton.Click += NewGameButton_Click;
 
             var quitButton = new Controls.Button(_content.Load<Texture2D>("Buttons/exitbutton"), null)
             {
-                Position = new Vector2(580, 250),
+                Position = new Vector2(820, 380),
             };
 
                 quitButton.Click += QuitButton_Click;
@@ -73,8 +73,8 @@ namespace TryMono3.States
 
             _environment = new List<NonInteractiveElement>()
             {
-                new NonInteractiveElement(_content.Load<Texture2D>("Buttons/menubutton"),  new Vector2(565, 70)),
-                new NonInteractiveElement(_content.Load<Texture2D>("Buttons/ramka"), new Vector2(460, 120)),
+                new NonInteractiveElement(_content.Load<Texture2D>("Buttons/menubutton"),  new Vector2(810, 235)),
+                new NonInteractiveElement(_content.Load<Texture2D>("Buttons/ramka"), new Vector2(700, 280)),
             };
             
         }

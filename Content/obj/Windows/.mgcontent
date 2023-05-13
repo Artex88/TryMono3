@@ -4,24 +4,40 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/Buttons/startbuttonlow.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/0.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/1.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/10.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/11.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/12.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/13.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/14.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/2.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/3.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/4.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/5.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/6.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/7.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/8.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/TryMono3/TryMono3/Content/menuAnimation/9.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/File.spritefont</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/0.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/1.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/10.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/11.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/12.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/13.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/14.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/2.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/3.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/4.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/5.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/6.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/7.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/8.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/menuAnimation/9.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/parallaxBackground/1.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/parallaxBackground/2.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/parallaxBackground/3.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/parallaxBackground/4.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/sprites/jump.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/sprites/stay.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/sprites/WalkLeft.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/TryMono/Content/sprites/WalkRight.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

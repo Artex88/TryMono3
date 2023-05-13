@@ -248,7 +248,7 @@
 /processorParam:TextureFormat=Color
 /build:menuAnimation/9.jpg
 
-#begin parallaxBackground/bg.png
+#begin parallaxBackground/1.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -258,9 +258,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:parallaxBackground/bg.png
+/build:parallaxBackground/1.png
 
-#begin parallaxBackground/buildings.png
+#begin parallaxBackground/2.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -270,9 +270,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:parallaxBackground/buildings.png
+/build:parallaxBackground/2.png
 
-#begin parallaxBackground/far-buildings.png
+#begin parallaxBackground/3.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -282,9 +282,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:parallaxBackground/far-buildings.png
+/build:parallaxBackground/3.png
 
-#begin parallaxBackground/skill-foreground.png
+#begin parallaxBackground/4.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -294,7 +294,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:parallaxBackground/skill-foreground.png
+/build:parallaxBackground/4.png
 
 #begin sprites/jump.png
 /importer:TextureImporter

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using TryMono3.Spritess;
 using TryMono3.Models;
 using TryMono3.Managers;
+using TryMono3.Controls;
 
 namespace TryMono3.States
 {
@@ -19,6 +20,9 @@ namespace TryMono3.States
 
         private GameManager _gm;
 
+        private Camera _camera;
+
+        private Player _player;
 
         public GameState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content) : base(game, graphicsDevice, content)
         {
@@ -30,9 +34,9 @@ namespace TryMono3.States
                 {"jump", new Animation(content.Load<Texture2D>("sprites/jump"), 3) },
                 {"stay", new Animation(content.Load<Texture2D>("sprites/stay"), 1 )}
             };
-            var playerSprite = new Player(playerAnimations)
+            _player = new Player(playerAnimations)
             {
-                Position = new Vector2(100, 100),
+                Position = new Vector2(200, 400),
                 Input = new Input()
                 {
                     Up = Keys.W,
@@ -41,15 +45,16 @@ namespace TryMono3.States
                     Down = Keys.S,
                 }
             };
+            _camera = new Camera();
             _gm = new(content);
             
             
-            _sprites.Add(playerSprite);
+            _sprites.Add(_player);
         }
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            spriteBatch.Begin();
+            spriteBatch.Begin(transformMatrix: _camera.Transform);
             _gm.Draw(spriteBatch);
             foreach (var sprite in _sprites)
             {
@@ -70,6 +75,7 @@ namespace TryMono3.States
             {
                 sprite.Update(gameTime);
             }
+            _camera.Follow(_player);
         }
     }
 }
