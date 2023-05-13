@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono\\TryMono3.csproj": {}
+    "C:\\Users\\tomke\\source\\repos\\Monogame\\Game\\TryMono3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono\\TryMono3.csproj": {
+    "C:\\Users\\tomke\\source\\repos\\Monogame\\Game\\TryMono3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono\\TryMono3.csproj",
+        "projectUniqueName": "C:\\Users\\tomke\\source\\repos\\Monogame\\Game\\TryMono3.csproj",
         "projectName": "TryMono3",
-        "projectPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono\\TryMono3.csproj",
+        "projectPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\Game\\TryMono3.csproj",
         "packagesPath": "C:\\Users\\tomke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\TryMono\\obj\\",
+        "outputPath": "C:\\Users\\tomke\\source\\repos\\Monogame\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tomke\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,25 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
             "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            },
+            "MonoGame.Framework.Content.Pipeline": {
               "target": "Package",
               "version": "[3.8.1.303, )"
             },
             "MonoGame.Framework.WindowsDX": {
               "target": "Package",
               "version": "[3.8.1.303, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
             }
           },
           "imports": [
