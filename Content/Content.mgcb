@@ -10,7 +10,7 @@
 
 #-------------------------------- References --------------------------------#
 
-/reference:..\..\TileSet.Importer\bin\Debug\net6.0-windows\TileSet.Importer.dll
+/reference:..\bin\Debug\net6.0-windows7.0\TryMono3.dll
 
 #---------------------------------- Content ---------------------------------#
 
