@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/tomke/source/repos/Monogame/TryMono/Content/sprites/jump.png</SourceFile>
-  <SourceTime>2023-05-13T16:12:32.3865981+05:00</SourceTime>
-  <DestFile>C:/Users/tomke/source/repos/Monogame/TryMono/Content/bin/Windows/sprites/jump.xnb</DestFile>
-  <DestTime>2023-05-13T16:50:49.9794204+05:00</DestTime>
+  <SourceFile>C:/Users/tomke/source/repos/Monogame/Game/Content/sprites/jump.png</SourceFile>
+  <SourceTime>2023-05-13T21:30:28.9547839+05:00</SourceTime>
+  <DestFile>C:/Users/tomke/source/repos/Monogame/Game/Content/bin/Windows/sprites/jump.xnb</DestFile>
+  <DestTime>2023-05-14T17:36:32.1474264+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

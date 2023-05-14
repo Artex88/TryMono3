@@ -11,6 +11,7 @@ using TryMono3.Spritess;
 using TryMono3.Models;
 using TryMono3.Managers;
 using TryMono3.Controls;
+using TryMono3.Map;
 
 namespace TryMono3.States
 {
@@ -47,8 +48,8 @@ namespace TryMono3.States
             };
             _camera = new Camera();
             _gm = new(content);
-            
-            
+
+            TileSet testTileSet = content.Load<TileSet>("map/CaveBG");
             _sprites.Add(_player);
         }
 
