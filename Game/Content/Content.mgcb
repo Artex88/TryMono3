@@ -10,7 +10,7 @@
 
 #-------------------------------- References --------------------------------#
 
-/reference:..\..\Lib1\bin\Debug\net6.0-windows7.0\Lib1.dll
+/reference:..\..\TileParser\bin\Debug\net6.0-windows7.0\TileParser.dll
 
 #---------------------------------- Content ---------------------------------#
 

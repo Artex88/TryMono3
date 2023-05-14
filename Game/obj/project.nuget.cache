@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tA9R79cFFezQMgm5tTAYDqvDbbPMhiG4XawjOKf+tnBbGZxYD1HGEZqIfwCsN3JfG4Db9AsnYhhyXZTbVp/MlA==",
+  "dgSpecHash": "uk3qBIRlCbkWlMHC1cIGDS0y/Biktfb485Z0G3+HvcwIhgcVjY6X5uRvq1RFmePhul+tK+XF1a+Wh1PoQ0Ys3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tomke\\Source\\Repos\\InterestingName\\Game\\TryMono3.csproj",
+  "projectFilePath": "C:\\Users\\tomke\\Source\\Repos\\TryMono3\\Game\\TryMono3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tomke\\.nuget\\packages\\assimpnet\\4.1.0\\assimpnet.4.1.0.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
