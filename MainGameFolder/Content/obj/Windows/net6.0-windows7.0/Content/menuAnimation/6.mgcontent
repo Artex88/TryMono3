@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/6.jpg</SourceFile>
-  <SourceTime>2023-05-14T23:51:43.5803806+05:00</SourceTime>
-  <DestFile>C:/Users/tomke/source/repos/Monogame/game/game/Content/bin/Windows/Content/menuAnimation/6.xnb</DestFile>
-  <DestTime>2023-05-14T23:53:14.3213086+05:00</DestTime>
+  <SourceFile>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/6.jpg</SourceFile>
+  <SourceTime>2023-05-15T00:16:23.176659+05:00</SourceTime>
+  <DestFile>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/bin/Windows/Content/menuAnimation/6.xnb</DestFile>
+  <DestTime>2023-05-15T00:17:09.1865546+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

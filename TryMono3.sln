@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryMono3", "TryMono3.csproj", "{96DEF58B-43EE-473C-B2FC-9DE436D29B21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tile.Parser", "..\Tile.Parser\Tile.Parser.csproj", "{7C9264EE-C787-456C-A936-1EAED9A68377}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{96DEF58B-43EE-473C-B2FC-9DE436D29B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96DEF58B-43EE-473C-B2FC-9DE436D29B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96DEF58B-43EE-473C-B2FC-9DE436D29B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9264EE-C787-456C-A936-1EAED9A68377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9264EE-C787-456C-A936-1EAED9A68377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9264EE-C787-456C-A936-1EAED9A68377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9264EE-C787-456C-A936-1EAED9A68377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

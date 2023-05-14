@@ -4,34 +4,34 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/Buttons/exitbutton.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/Buttons/menubutton.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/Buttons/ramka.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/Buttons/startbutton.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/File.spritefont</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/0.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/1.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/10.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/11.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/12.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/13.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/14.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/2.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/3.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/4.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/5.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/6.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/7.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/8.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/menuAnimation/9.jpg</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/parallaxBackground/1.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/parallaxBackground/2.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/parallaxBackground/3.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/parallaxBackground/4.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/sprites/jump.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/sprites/stay.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/sprites/WalkLeft.png</File>
-    <File>C:/Users/tomke/source/repos/Monogame/game/game/Content/sprites/WalkRight.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/Buttons/exitbutton.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/Buttons/menubutton.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/Buttons/ramka.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/Buttons/startbutton.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/File.spritefont</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/0.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/1.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/10.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/11.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/12.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/13.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/14.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/2.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/3.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/4.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/5.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/6.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/7.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/8.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/menuAnimation/9.jpg</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/parallaxBackground/1.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/parallaxBackground/2.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/parallaxBackground/3.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/parallaxBackground/4.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/sprites/jump.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/sprites/stay.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/sprites/WalkLeft.png</File>
+    <File>C:/Users/tomke/source/repos/Monogame/game/MainGameFolder/Content/sprites/WalkRight.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
