@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryMono3", "TryMono3.csproj", "{96DEF58B-43EE-473C-B2FC-9DE436D29B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib1", "..\Lib1\Lib1.csproj", "{3D02BE60-F2E3-4117-964F-7DCB6FC30AAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96DEF58B-43EE-473C-B2FC-9DE436D29B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DEF58B-43EE-473C-B2FC-9DE436D29B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DEF58B-43EE-473C-B2FC-9DE436D29B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DEF58B-43EE-473C-B2FC-9DE436D29B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D02BE60-F2E3-4117-964F-7DCB6FC30AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D02BE60-F2E3-4117-964F-7DCB6FC30AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D02BE60-F2E3-4117-964F-7DCB6FC30AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D02BE60-F2E3-4117-964F-7DCB6FC30AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0514C1F8-6640-4744-845E-25C3F152A357}
+	EndGlobalSection
+EndGlobal
