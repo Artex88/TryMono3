@@ -5,18 +5,19 @@ using TryMono3.Map.TileSets;
 
 namespace TryMono3.Map
 {
-    [ContentProcessor(DisplayName = "TileSet Processor")]
+    [ContentProcessor(DisplayName = "TileSetProcessor")]
     public class TileSetProcessor : ContentProcessor<TileSetData, TileSet>
     {
+        private const string TextureRootPath = "map";
         public override TileSet Process(TileSetData input, ContentProcessorContext context)
         {
-            ExternalReference<string> extRef = new ExternalReference<string>(input.Image.Source);
 
-            Texture2DContent texture = context.BuildAndLoadAsset<string, Texture2DContent>(extRef, "TextureProcessor");
-           
+            string tileSetPath = Path.GetFileNameWithoutExtension(input.Image.Source);
 
+            tileSetPath = Path.Combine(TextureRootPath, tileSetPath).Replace("\\","/");
+            
 
-            TileSet tileSet = new TileSet(input.Name, input.TileWidth, input.TileHeight, null, input.Columns, input.TileCount);
+            TileSet tileSet = new TileSet(input.Name, input.TileWidth, input.TileHeight, tileSetPath, input.Columns, input.TileCount);
 
             return tileSet;
         }

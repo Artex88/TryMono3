@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -13,25 +14,26 @@ namespace TryMono3.Map
         
         public string Name { get; set; }
 
-        public int TileWidth { get; }
+        public int TileWidth { get; private set; }
 
-        public int TileHeight { get; }
+        public int TileHeight { get; private set; }
 
-        public Microsoft.Xna.Framework.Graphics.Texture2D Texture { get; private set; }
+        public Texture2D Texture { get; private set; }
 
-        public int ColumnCount { get; }
+        public string TexturePath { get; private set; }
 
-        public int TileCount { get; }
+        public int ColumnCount { get; private set; }
+
+        public int TileCount { get; private set; }
 
         public int RowCount => TileCount / ColumnCount;
 
-        public TileSet(string name, int tileWidth, int tileHeight, Texture2D texture, int columnCount, int tileCount)
+        public TileSet(string name, int tileWidth, int tileHeight, string texturePath, int columnCount, int tileCount)
         {
             Name = name;
             TileWidth = tileWidth;
             TileHeight = tileHeight;
-            //Texture = texture ?? throw new ArgumentException(nameof(texture));
-            Texture = texture;
+            TexturePath = texturePath;
             ColumnCount = columnCount;
             TileCount = tileCount;
         }
@@ -58,6 +60,17 @@ namespace TryMono3.Map
             int y = (tileId - 1) / ColumnCount;
 
             return GetTileBounds(x, y);
+        }
+
+        public bool LoadTexture(ContentManager contentManager)
+        {
+            if (contentManager is null)
+                throw new ArgumentException(nameof(contentManager));
+
+            string t = TexturePath.Trim(new[] { '\\', '/' });
+            Texture = contentManager.Load<Texture2D>(t);
+
+            return Texture != null;
         }
     }
 }

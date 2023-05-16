@@ -4,14 +4,14 @@
     "C:\\Users\\tomke\\source\\repos\\TryMono3\\TileParser\\TileParser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tomke\\Source\\Repos\\TryMono3\\Game\\TryMono3.csproj": {
+    "C:\\Users\\tomke\\source\\repos\\TryMono3\\Game\\TryMono3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomke\\Source\\Repos\\TryMono3\\Game\\TryMono3.csproj",
+        "projectUniqueName": "C:\\Users\\tomke\\source\\repos\\TryMono3\\Game\\TryMono3.csproj",
         "projectName": "TryMono3",
-        "projectPath": "C:\\Users\\tomke\\Source\\Repos\\TryMono3\\Game\\TryMono3.csproj",
+        "projectPath": "C:\\Users\\tomke\\source\\repos\\TryMono3\\Game\\TryMono3.csproj",
         "packagesPath": "C:\\Users\\tomke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomke\\Source\\Repos\\TryMono3\\Game\\obj\\",
+        "outputPath": "C:\\Users\\tomke\\source\\repos\\TryMono3\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tomke\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,7 +83,7 @@
         "projectName": "TileParser",
         "projectPath": "C:\\Users\\tomke\\source\\repos\\TryMono3\\TileParser\\TileParser.csproj",
         "packagesPath": "C:\\Users\\tomke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomke\\source\\repos\\TryMono3\\TileParser\\obj\\",
+        "outputPath": "C:\\Users\\tomke\\Source\\Repos\\TryMono3\\TileParser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tomke\\AppData\\Roaming\\NuGet\\NuGet.Config",

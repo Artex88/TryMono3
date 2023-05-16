@@ -49,7 +49,7 @@ namespace TryMono3.States
             _camera = new Camera();
             _gm = new(content);
 
-            TileSet testTileSet = content.Load<TileSet>("map/CaveBG");
+            
             _sprites.Add(_player);
         }
 

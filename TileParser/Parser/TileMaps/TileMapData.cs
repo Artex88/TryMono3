@@ -19,7 +19,7 @@ namespace TryMono3.Map.TileMaps
         [XmlAttribute(AttributeName = "width")]
         public int Width { get; set; }
 
-        [XmlAttribute(AttributeName = "tilewidth")]
+        [XmlAttribute(AttributeName = "height")]
         public int Height { get; set; }
 
         [XmlElement(ElementName = "tileset")]
@@ -30,7 +30,5 @@ namespace TryMono3.Map.TileMaps
 
         [XmlElement(ElementName = "objectgroup")]
         public List<TileMapObjectGroupData> objectGroups { get; set; }
-
-        
     }
 }
