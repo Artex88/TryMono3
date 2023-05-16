@@ -46,6 +46,7 @@ namespace TryMono3.States
                     Down = Keys.S,
                 }
             };
+
             _camera = new Camera();
             _gm = new(content);
 
