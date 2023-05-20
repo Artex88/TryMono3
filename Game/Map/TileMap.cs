@@ -9,11 +9,12 @@ using System.Threading.Tasks;
 
 namespace TryMono3.Map
 {
+    
     public class TileMap
     {
-        private readonly List<TileMapLayer> _layers = new List<TileMapLayer>();
+        private List<TileMapLayer> _layers = new List<TileMapLayer>();
 
-        private readonly List<TileSetReference> tileSetReferences = new List<TileSetReference>();
+        private List<TileSetReference> tileSetReferences = new List<TileSetReference>();
 
         public int TileWidth { get; private set; }
 

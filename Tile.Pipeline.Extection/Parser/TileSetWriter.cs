@@ -11,6 +11,7 @@ using TryMono3.Map.TileSets;
 
 namespace TileParser.Parser
 {
+    [ContentTypeWriter]
     public class TileSetWriter : ContentTypeWriter<TileSet>
     {
         public override string GetRuntimeReader(TargetPlatform targetPlatform)

@@ -46,7 +46,10 @@ namespace TryMono3.States
                     Down = Keys.S,
                 }
             };
-
+            TileSet testTileSet = content.Load<TileSet>("map/cave");
+            testTileSet.LoadTexture(content);
+            TileMap testMap = content.Load<TileMap>("map/test");
+            testMap.LoadTileSets(content);
             _camera = new Camera();
             _gm = new(content);
 

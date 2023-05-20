@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7tiJcgcc+DXnWm8SlemBf1EHJnlCd3q3yZOeC572fMaWbyzY6rk/2156oZIf281YY6El0Vn4qFvGZ3Wdrf2AsQ==",
+  "dgSpecHash": "qQlOSUtMwxkEhlDgySja4/taNtwZaTPd5E0Uztnk12lA+t/oVdf98ZxSvrjnAgY9KmuMm/q9TkYjl85b34AnOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tomke\\source\\repos\\TryMono3\\Tile.Pipeline.Extection\\Tile.Pipeline.Extection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tomke\\.nuget\\packages\\assimpnet\\4.1.0\\assimpnet.4.1.0.nupkg.sha512",
+    "C:\\Users\\tomke\\.nuget\\packages\\box2d.netstandard\\1.0.4\\box2d.netstandard.1.0.4.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\microsoft.codeanalysis.common\\1.3.0\\microsoft.codeanalysis.common.1.3.0.nupkg.sha512",

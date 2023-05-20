@@ -186,3 +186,4 @@ C:\Users\tomke\source\repos\TryMono3\Tests\bin\Debug\net6.0-windows7.0\Microsoft
 C:\Users\tomke\source\repos\TryMono3\Tests\bin\Debug\net6.0-windows7.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\tomke\source\repos\TryMono3\Tests\bin\Debug\net6.0-windows7.0\Microsoft.TestPlatform.AdapterUtilities.dll
 C:\Users\tomke\source\repos\TryMono3\Tests\bin\Debug\net6.0-windows7.0\nunit.framework.dll
+C:\Users\tomke\source\repos\TryMono3\Tests\bin\Debug\net6.0-windows7.0\Content\map\test.xnb

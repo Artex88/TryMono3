@@ -35,6 +35,7 @@ namespace TryMono3.Map
         public void LoadTileSet(ContentManager contentManager)
         {
             TileSet = contentManager?.Load<TileSet>(TileSetPath);
+            TileSet?.LoadTexture(contentManager);
         }
     }
 

@@ -249,7 +249,9 @@ C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Content\Bu
 C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Content\Buttons\ramka.xnb
 C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Content\Buttons\startbutton.xnb
 C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Content\File.xnb
+C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Content\map\cave.xnb
 C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Content\map\CaveBG.xnb
+C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Content\map\test.xnb
 C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Content\menuAnimation\0.xnb
 C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Content\menuAnimation\1.xnb
 C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Content\menuAnimation\10.xnb
@@ -367,4 +369,4 @@ C:\Users\tomke\source\repos\TryMono3\Game\obj\Debug\net6.0-windows7.0\refint\Try
 C:\Users\tomke\source\repos\TryMono3\Game\obj\Debug\net6.0-windows7.0\TryMono3.pdb
 C:\Users\tomke\source\repos\TryMono3\Game\obj\Debug\net6.0-windows7.0\TryMono3.genruntimeconfig.cache
 C:\Users\tomke\source\repos\TryMono3\Game\obj\Debug\net6.0-windows7.0\ref\TryMono3.dll
-C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Content\map\Cave.xnb
+C:\Users\tomke\source\repos\TryMono3\Game\bin\Debug\net6.0-windows7.0\Box2D.NetStandard.dll

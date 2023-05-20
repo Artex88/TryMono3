@@ -6,6 +6,7 @@ using TryMono3.Map;
 
 namespace TileParser.Parser
 {
+    [ContentTypeWriter]
     public class TileMapWriter : ContentTypeWriter<TileMap>
     {
         public override string GetRuntimeReader(TargetPlatform targetPlatform)

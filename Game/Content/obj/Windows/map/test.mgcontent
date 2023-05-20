@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/tomke/source/repos/TryMono3/Game/Content/map/test.tmx</SourceFile>
+  <SourceTime>2023-05-17T11:15:02.1154216+05:00</SourceTime>
+  <DestFile>C:/Users/tomke/source/repos/TryMono3/Game/Content/bin/Windows/map/test.xnb</DestFile>
+  <DestTime>2023-05-18T19:57:05.6725094+05:00</DestTime>
+  <Importer>TileMapImporter</Importer>
+  <ImporterTime>2023-05-17T12:44:33.5219254+05:00</ImporterTime>
+  <Processor>TileMapProcessor</Processor>
+  <ProcessorTime>2023-05-17T12:44:33.5219254+05:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

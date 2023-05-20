@@ -9,8 +9,9 @@
     <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/Buttons/ramka.png</File>
     <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/Buttons/startbutton.png</File>
     <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/File.spritefont</File>
-    <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/map/Cave.png</File>
-    <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/map/CaveBG.tsx</File>
+    <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/map/cave.tsx</File>
+    <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/map/CaveBG.png</File>
+    <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/map/test.tmx</File>
     <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/menuAnimation/0.jpg</File>
     <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/menuAnimation/1.jpg</File>
     <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/menuAnimation/10.jpg</File>
@@ -36,6 +37,7 @@
     <File>C:/Users/tomke/source/repos/TryMono3/Game/Content/sprites/WalkRight.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

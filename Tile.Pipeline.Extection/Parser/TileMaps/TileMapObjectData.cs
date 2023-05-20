@@ -22,10 +22,10 @@ namespace TryMono3.Map.TileMaps
         public double Y { get; set; }
 
         [XmlAttribute(AttributeName = "width")]
-        public int Width { get; set; }
+        public double Width { get; set; }
 
         [XmlAttribute(AttributeName = "height")]
-        public int Height { get; set; }
+        public double Height { get; set; }
 
         [XmlArray(ElementName = "properties")]
         public List<TileMapProperty> Properties { get; set; }

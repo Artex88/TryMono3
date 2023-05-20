@@ -69,7 +69,18 @@ namespace TryMono3.Map
 
         public IEnumerator<TileMapTile> GetEnumerator()
         {
-            return _tiles.GetEnumerator() as IEnumerator<TileMapTile>;
+            List<TileMapTile> tiles = new List<TileMapTile>();
+            int width = _tiles.GetLength(0);
+            int height = _tiles.GetLength(1);
+
+            for (int y = 0; y < height; y++)
+            {
+                for (int x = 0 ; x < width; x++)
+                {
+                    tiles.Add(_tiles[x, y]);
+                }
+            }
+            return tiles.GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()

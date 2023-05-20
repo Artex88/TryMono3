@@ -64,3 +64,4 @@ C:\Users\tomke\source\repos\TryMono3\Tile.Pipeline.Extection\bin\Debug\net6.0-wi
 C:\Users\tomke\source\repos\TryMono3\Tile.Pipeline.Extection\bin\Debug\net6.0-windows7.0\Content\sprites\walkLeft.xnb
 C:\Users\tomke\source\repos\TryMono3\Tile.Pipeline.Extection\bin\Debug\net6.0-windows7.0\Content\sprites\walkLeftFirst2.xnb
 C:\Users\tomke\source\repos\TryMono3\Tile.Pipeline.Extection\bin\Debug\net6.0-windows7.0\Content\sprites\WalkRight.xnb
+C:\Users\tomke\source\repos\TryMono3\Tile.Pipeline.Extection\bin\Debug\net6.0-windows7.0\Content\map\test.xnb

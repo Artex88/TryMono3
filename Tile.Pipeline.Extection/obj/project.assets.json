@@ -39,6 +39,15 @@
           }
         }
       },
+      "Box2D.NetStandard/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Box2D.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Box2D.NetStandard.dll": {}
+        }
+      },
       "Libuv/1.9.1": {
         "type": "package",
         "dependencies": {
@@ -2897,6 +2906,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Box2D.NetStandard": "1.0.4",
           "MonoGame.Content.Builder.Task": "3.8.1.303",
           "MonoGame.Framework.Content.Pipeline": "3.8.1.303",
           "MonoGame.Framework.WindowsDX": "3.8.1.303"
@@ -2937,6 +2947,18 @@
         "runtimes/osx-x64/native/libassimp.dylib",
         "runtimes/win-x64/native/assimp.dll",
         "runtimes/win-x86/native/assimp.dll"
+      ]
+    },
+    "Box2D.NetStandard/1.0.4": {
+      "sha512": "XDVhUWuMUO0w0ZSKXhDCs63OUceGBitUsiYxeIL2Frq8pDu6l1YrfUdRSlY1XpWeZcMOTfxh8VL/ASRzCAtSKw==",
+      "type": "package",
+      "path": "box2d.netstandard/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "box2d.netstandard.1.0.4.nupkg.sha512",
+        "box2d.netstandard.nuspec",
+        "lib/netstandard2.1/Box2D.NetStandard.dll"
       ]
     },
     "Libuv/1.9.1": {

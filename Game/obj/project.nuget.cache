@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dmgMIse9n4CRGDORYLDFiAxQB+ryXz+ENNxHgJi2f+eXPdZAsXyS65Mq4JVxWElgwuWxYJFQmbGhEkwZ9rRNTA==",
+  "dgSpecHash": "7pt0ArHqmLTDkXtmxTA7NdBNq401x9cAup+6m4cIbxxxSa+uZh35qgYsRI3BkYA0A9ITURt2liA3BH381mLgVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\tomke\\source\\repos\\TryMono3\\Game\\TryMono3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tomke\\.nuget\\packages\\assimpnet\\4.1.0\\assimpnet.4.1.0.nupkg.sha512",
+    "C:\\Users\\tomke\\.nuget\\packages\\box2d.netstandard\\1.0.4\\box2d.netstandard.1.0.4.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
     "C:\\Users\\tomke\\.nuget\\packages\\microsoft.codeanalysis.common\\1.3.0\\microsoft.codeanalysis.common.1.3.0.nupkg.sha512",
